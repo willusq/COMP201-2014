@@ -5,10 +5,9 @@ using namespace std;
 int main(){
 	vector<int> stack (1);
 	string elem;
-	cout << "Enter the elements of formula(enter )" << endl;
-    char *end;
+	cout << "Enter the elements of formula(done to finish)" << endl;
 	while(cin >> elem){
-		if(elem == "done"){
+		if(elem.tolower() == "done"){
 			break;
 		}
 		if(elem == "+"){
