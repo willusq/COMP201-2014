@@ -7,7 +7,7 @@ int main(){
 	string elem;
 	cout << "Enter the elements of formula(done to finish)" << endl;
 	while(cin >> elem){
-		if(elem.tolower() == "done"){
+		if(elem == "done"){
 			break;
 		}
 		if(elem == "+"){
